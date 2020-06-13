@@ -6,13 +6,19 @@ const api= {
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <main>
         <div className="search-box">
           <input 
             type="text" 
             className="search-bar" 
             placeholder="Search..."></input>
+        </div>
+        <div>
+          <div className="location-box">
+            <div className="location">New York City, US</div>
+            {/* <div className="date">{dateBuilder(new date())}</div> */}
+          </div>
         </div>
       </main>
     </div>
